@@ -1,0 +1,39 @@
+/* src/lib/global.css */
+:root {
+    /* Color palette */
+    --primary:  	#244c3c;
+    --secondary: #526c5b;
+    --tertiary: #425e6a;
+    --accent: #fa6e06;
+    --text:  	#ebebd9;
+    --dark: #2d3436;
+
+    /* Spacing presets */
+    --spacing-s: 0.5rem;
+    --spacing-m: 1rem;
+    --spacing-l: 1.5rem;
+
+    /* Rounded edges */
+    --border-s: 0.25rem;
+    --border-m: 0.5rem;
+    --border-l: 0.75rem;
+    --border-xl: 1rem;
+    --border-xxl: 1.5rem;
+}
+
+/* Other basic styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: var(--dark);
+    background-color: var(--primary);
+    padding: 0rem;
+    margin: 0rem;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Add more styles as needed */
