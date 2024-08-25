@@ -38,6 +38,7 @@
     .logo {
         width: 50px;
         height: auto;
+        cursor: pointer;
     }
 
     .pages {
@@ -157,6 +158,7 @@
 
 <div class="navbar">
     <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+    <!-- svelte-ignore a11y-click-events-have-key-events -->
     <img src={logo} alt="Logo" class="logo" on:click={() => navigateTo('/')} on:keydown={(e) => {if (e.key === 'Enter') navigateTo('/')}}>
     <div class="pages">
         <button on:click={() => navigateTo('/')} on:keydown={(e) => {if (e.key === 'Enter') navigateTo('/')}} class="page" type="button" aria-label="Home">Home</button>
